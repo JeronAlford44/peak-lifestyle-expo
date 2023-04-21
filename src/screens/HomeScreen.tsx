@@ -30,7 +30,9 @@ const LOCAL_URL = 'http://localhost:3000' // iOS Simulator and Android Emulator 
 // const URL = IP_HTTPS_URL
 
 // const URL = __DEV__ ? DEV_IP_URL : PROD_URL
-const URL = PROD_URL
+// const URL = PROD_URL
+const URL = LOCAL_URL
+
 
 const HomeScreen = () => {
   const insets = useSafeAreaInsets()
